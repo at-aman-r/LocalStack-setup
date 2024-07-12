@@ -5,10 +5,10 @@
 ---
 
 ### Prerequesits: 
-1. [Node.js]([OpenAI](https://www.openai.com))
-2. [Python]([https://www.python.org/downloads/])
-3. [PIP]([https://pip.pypa.io/en/stable/installation/])
-4. [Docker]([https://www.docker.com/products/docker-desktop/])
+1. [Node.js]()
+2. [Python](https://www.python.org/downloads/)
+3. [PIP](https://pip.pypa.io/en/stable/installation/)
+4. [Docker](https://www.docker.com/products/docker-desktop/)
 
 ###### Note: the enviroment variables `path` must be set properly eg.
 ```env
@@ -27,7 +27,7 @@ C:\Program Files\Amazon\AWSCLIV2\
 #### Installation of Localstack:
 > 1. Install the **Localstack CLI**
    
-   [Download Link]({https://app.localstack.cloud/getting-started})
+   [Download Link](https://app.localstack.cloud/getting-started)
 
    ``No need to configure your personal auth token. it is for paid version``
 
@@ -40,7 +40,8 @@ C:\Program Files\Amazon\AWSCLIV2\
 > 3. Install **Localstack AWS CLI** (`awslocal`)
 #### Using PIP
 
-    ``pip install awscli-local[ver1]``
+     pip install awscli-local[ver1]
+    
 
 ---
 
@@ -80,7 +81,7 @@ C:\Program Files\Amazon\AWSCLIV2\
 > **Testing the installation**
 
 
-##### [Detailed Doc LInk..]([https://docs.localstack.cloud/user-guide/aws/apigateway/])
+##### [Detailed Doc LInk..](https://docs.localstack.cloud/user-guide/aws/apigateway/)
 
 
 #### 1. Create a new file named lambda.js with the following contents:
@@ -257,17 +258,18 @@ awslocal apigateway create-deployment
 
 > `{"message":"Hello from Lambda"}   `
 
+--- 
 
 #### Helful Docs Refs:
-1. [Lambda funtion and api gateway in localstack]([https://docs.localstack.cloud/user-guide/aws/apigateway/])
 
-2. [Cognito on LocalStack]([https://docs.localstack.cloud/user-guide/aws/cognito/])
+1. [Lambda funtion and api gateway in localstack](https://docs.localstack.cloud/user-guide/aws/apigateway/)
+2. [Cognito on LocalStack](https://docs.localstack.cloud/user-guide/aws/cognito/)
 
-3 . [ DynamoDB on LocalStack]([https://docs.localstack.cloud/user-guide/aws/dynamodb/])
+3. [ DynamoDB on LocalStack](https://docs.localstack.cloud/user-guide/aws/dynamodb/)
 
-4 . [Simple Notification Service (SNS) on LocalStack]([https://docs.localstack.cloud/user-guide/aws/sns/])
+4. [Simple Notification Service (SNS) on LocalStack](https://docs.localstack.cloud/user-guide/aws/sns/)
 
-5 . [All Local AWS Services ]([https://docs.localstack.cloud/user-guide/aws/feature-coverage/])
+5. [All Local AWS Services ](https://docs.localstack.cloud/user-guide/aws/feature-coverage/)
 
 
 
